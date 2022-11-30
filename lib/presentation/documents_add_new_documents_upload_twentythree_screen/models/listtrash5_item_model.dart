@@ -1,0 +1,1 @@
+class Listtrash5ItemModel { }

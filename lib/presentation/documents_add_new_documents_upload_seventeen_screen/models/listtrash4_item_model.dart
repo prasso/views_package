@@ -1,0 +1,1 @@
+class Listtrash4ItemModel { }

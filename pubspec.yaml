@@ -1,0 +1,35 @@
+name: views_package
+description: A package of views generated from Figma by DHIWise.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  cupertino_icons: ^1.0.5
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.0.0
+  flutter_switch: ^0.3.2
+  permission_handler: ^10.0.0
+  images_picker: ^1.2.11
+  file_picker: ^4.6.1
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Lato
+      fonts: 
+        - asset: assets/fonts/LatoBlack.ttf
+          weight: 900
+        - asset: assets/fonts/LatoBold.ttf
+          weight: 700
+        - asset: assets/fonts/LatoRegular.ttf
+          weight: 400
